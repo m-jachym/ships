@@ -1,0 +1,82 @@
+html {
+    background-color: #859cac;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(img/seabg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#info {
+    font-weight: 600;
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#info > button {
+    color: wheat;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    background-color: blue;
+    border: 2px solid;
+    border-color: wheat;
+}
+
+#info > button:hover {
+    cursor: pointer;
+    background-color: #53BFDB;
+    color: wheat;
+    border: 2px solid;
+    border-color: #53BFDB;
+}
+
+#info > p {
+    padding: 0;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+
+table {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("img/map.png");
+    border: 2px solid slateblue;
+}
+
+td {
+    height: 60px;
+    width: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: solid 0.5px;
+    border-color: slateblue;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.traf {
+    background-image: url("img/statek.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 2;
+    
+}
+
+.pudlo {
+    background-image: url("img/pudlo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 2;
+}
